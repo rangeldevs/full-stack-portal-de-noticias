@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+root{
+    /* DEFINIÇAO DE CORES */
+
+    /* Produto */
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8;
+
+
+    /* BASE */
+    --bg-color: #0f172a;
+    --stroke-color: #1E293B;
+
+    /* TEXTOS */
+    --text-color-primary: #F1F5F;
+    --text-color-secondary: #94a3b8;
+
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color-primary);
+   
+}
