@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-root{
+:root{
     /* DEFINIÇAO DE CORES */
 
     /* Produto */
@@ -13,16 +13,38 @@ root{
 
 
     /* BASE */
-    --bg-color: #0f172a;
+    --bg-color: #0F172A;
     --stroke-color: #1E293B;
 
     /* TEXTOS */
-    --text-color-primary: #F1F5F;
+    --text-color-primary: #f1f5ff;
     --text-color-secondary: #94a3b8;
+
+    /* FONTES */
+    --font-family: 'Archivo', sans-serif;
+    --h1: 800 24px/135% var(--font-family);
+    --h2: 800 16px/140% var(--font-family);
+    --h3: 800 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
+    --text: 400 16px/140% var(--font-family);
+    --text-sm: 400 14px/140% var(--font-family);
+    
 
 }
 body{
     background-color: var(--bg-color);
     color: var(--text-color-primary);
-   
+    font: var(--text);
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--brand-color-light);
+}
+h1, h2, h3 {
+    font: inherit;
 }
