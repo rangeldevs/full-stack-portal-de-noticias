@@ -1,0 +1,35 @@
+#primary{
+    padding-block: 20px;
+    div{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+    }
+
+    div:nth-child(2){
+        margin-inline: auto;
+    }
+    div:nth-child(3){
+        justify-self: end;
+    }
+}
+
+#secundary{
+    padding-block: 14px;
+    border: 1px solid var(--stroke-color);
+    border-inline: none;
+    justify-content: space-between;
+    /* border-bottom: 1px solid var(--stroke-color);
+    a{
+        font: var(--text-sm);
+        color: var(--text-color-secondary);
+        padding-inline: 8px;
+        padding-block: 4px;
+        border-radius: 4px;
+        &:hover{
+            background-color: var(--stroke-color);
+            color: var(--text-color-primary);
+        }
+    } */
+}
